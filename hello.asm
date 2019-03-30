@@ -20,8 +20,10 @@ _start:
 	; move the count into rdx, 13 is the length of "Hello World\n"
 	mov rdx, 13
 	syscall
-
+	
+	; sys_exit has an id of 60, move 60 into the rax register
 	mov rax, 60
+	; move 0, the errorcode, into rdi, indicating there was no error
 	mov rdi, 0
 	syscall
 
