@@ -13,6 +13,9 @@ section .text
 	; a "label"
 	; The compiler will calculate the location in which the label will sit in memory.
 	; Any time the label is used afterwards, the compiler replaces it by the location in memory.
+	; The "global" keyword is used when you want the linker to know the address of some label.
+	; The .o (object) file generated will contain a link to every label declared "global".
+	; In this case, we have to declare "_start" as global since it is required for the code to be properly linked.
 	global _start
 ; The "_start" label is essential for all programs.
 ; The program is executed at the location of "_start".
