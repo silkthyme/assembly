@@ -34,6 +34,12 @@
 	* divert program flow
 	* format: jmp label (loads the value "label" into the rip register)
 	* ex. _start: jmp _start (infinite loop)
+* Comparisons
+	* allow programs to take different paths based on certain conditions
+	* comparisons are done on registers
+	* format: cmp register, register/value
+	* ex. cmp rax, 23
+	* ex2. cmp rax, rbx	
 * 64-bit
 	* rax
 	* rbx
