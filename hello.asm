@@ -10,6 +10,9 @@ section .data
 
 ; .text section, where the actual code goes
 section .text
+	; a "label"
+	; The compiler will calculate the location in which the label will sit in memory.
+	; Any time the label is used afterwards, the compiler replaces it by the location in memory.
 	global _start
 
 _start:
