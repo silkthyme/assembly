@@ -19,7 +19,13 @@
 	* like registers, hold data
 	* only hold 1 bit each (0 or 1)
 	* individual flags are part of a larger register
-	* CF = Carry, PF = Parity, ZF = zero, SF = sign, OF = overflow, AF = adjust, IF = interrupt enabled 
+	* CF = Carry, PF = Parity, ZF = zero, SF = sign, OF = overflow, AF = adjust, IF = interrupt enabled
+* Pointers
+	* like registers, hold data
+	* hold data's memory address
+	* rip (eip, ip) = index pointer, points to next address to be executed in the control flow
+	* rsp (esp, sp) = stack pointer, points to the top address of the stack
+	* rbp (ebp, bp) = stack base pointer, points to the bottom of the stack 
 * 64-bit
 	* rax
 	* rbx
