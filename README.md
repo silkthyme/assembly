@@ -25,7 +25,10 @@
 	* hold data's memory address
 	* rip (eip, ip) = index pointer, points to next address to be executed in the control flow
 	* rsp (esp, sp) = stack pointer, points to the top address of the stack
-	* rbp (ebp, bp) = stack base pointer, points to the bottom of the stack 
+	* rbp (ebp, bp) = stack base pointer, points to the bottom of the stack
+* Control Flow
+	* The rip register holds the address of the next instruction to be executed.
+	* After each instruction, it is incremented by 1, making the control flow naturally flow from top to bottom. 
 * 64-bit
 	* rax
 	* rbx
