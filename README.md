@@ -12,12 +12,9 @@
 	* all syscalls have an ID associated with them
 	* syscalls also take arguments
 * sys_write
-	Argument Type		Argument Description
-	File Descriptor		0 = Standard Input
-				1 = Standard Output
-				2 = Standard Error
-	Buffer			Location of string to write
-	Count			Length of string
+	* File Descriptor: 0 = Standard Input, 1 = Standard Output, 2 = Standard Error
+	* Buffer: Location of string to write
+	* Count: Length of string
 * 64-bit
 	* rax
 	* rbx
