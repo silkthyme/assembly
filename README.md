@@ -29,6 +29,11 @@
 * Control Flow
 	* The rip register holds the address of the next instruction to be executed.
 	* After each instruction, it is incremented by 1, making the control flow naturally flow from top to bottom. 
+* Jumps
+	* jump to different parts of code based on labels
+	* divert program flow
+	* format: jmp label (loads the value "label" into the rip register)
+	* ex. _start: jmp _start (infinite loop)
 * 64-bit
 	* rax
 	* rbx
