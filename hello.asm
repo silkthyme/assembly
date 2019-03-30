@@ -11,10 +11,14 @@ section .text
 	global _start
 
 _start:
+	; move the value 1 into the rax register
 	mov rax, 1
+	; move the filedescriptor into the rdi register, "1" means stdout
 	mov rdi, 1
+	; move the memory address of the string into the rsi register
 	mov rsi, text
-	mov rdx, 14
+	; move the count into rdx, 13 is the length of "Hello World\n"
+	mov rdx, 13
 	syscall
 
 	mov rax, 60
