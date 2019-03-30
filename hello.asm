@@ -14,7 +14,9 @@ section .text
 	; The compiler will calculate the location in which the label will sit in memory.
 	; Any time the label is used afterwards, the compiler replaces it by the location in memory.
 	global _start
-
+; The "_start" label is essential for all programs.
+; The program is executed at the location of "_start".
+; If the linker cannot find "_start", it will throw an error.
 _start:
 	; sys_write(1, text, 14)
 	; move the value 1 into the rax register
