@@ -15,6 +15,11 @@
 	* File Descriptor: 0 = Standard Input, 1 = Standard Output, 2 = Standard Error
 	* Buffer: Location of string to write
 	* Count: Length of string
+* Flags
+	* like registers, hold data
+	* only hold 1 bit each (0 or 1)
+	* individual flags are part of a larger register
+	* CF = Carry, PF = Parity, ZF = zero, SF = sign, OF = overflow, AF = adjust, IF = interrupt enabled 
 * 64-bit
 	* rax
 	* rbx
