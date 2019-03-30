@@ -18,7 +18,7 @@ _printHello:
 	mov rax, 1
 	mov rdi, 1
 	mov rsi, text
-	mov rdx, 1
+	mov rdx, 14
 	syscall
 	; returns to the original position (call _printHello)
 	; essentially the same as jump except it returns to where the call was made
