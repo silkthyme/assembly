@@ -83,4 +83,10 @@
 	* r13b
 	* r14b
 	* r15b
+# How to compile and run
+* nasm -f elf64 -o hello.o hello.asm
+	* this generates the object file
+* ld hello.o -o hello
+	* link the object file using a linker to make it an executable file
+	* GNU linker = ld
 
