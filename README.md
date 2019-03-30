@@ -40,4 +40,38 @@
 	* r13d
 	* r14d
 	* r15d
+* 16-bit
+	* ax
+	* bx
+	* cx
+	* dx
+	* si
+	* di
+	* bp
+	* sp
+	* r8w
+	* r9w
+	* r10w
+	* r11w
+	* r12w
+	* r13w
+	* r14w
+	* r15w
+* 8-bit
+	* al
+	* bl
+	* cl
+	* dl
+	* sil
+	* dil
+	* bpl
+	* spl
+	* r8b
+	* r9b
+	* r10b
+	* r11b
+	* r12b
+	* r13b
+	* r14b
+	* r15b
 
