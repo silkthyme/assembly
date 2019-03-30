@@ -39,7 +39,21 @@
 	* comparisons are done on registers
 	* format: cmp register, register/value
 	* ex. cmp rax, 23
-	* ex2. cmp rax, rbx	
+	* ex2. cmp rax, rbx
+* Conditional Jumps
+	* signed comparisons by default
+	* je = jump if first is equal to second
+	* jne = jump if first is not equal to second
+	* jg = jump if first is greater than second
+	* jge = jump if first is greater than or equal to second
+	* jl = jump if first is less than second
+	* jle = jump if first is less than or equal to second
+	* jz = jump if first is equal to zero
+	* jnz = jump if first is not equal to zero
+	* jo = jump if overflow occured
+	* jno = jump if overflow did not occur
+	* js = jump if signed
+	* jns = jump if not signed
 * 64-bit
 	* rax
 	* rbx
