@@ -6,6 +6,11 @@
 	* unsigned: 0 - 18,446,744,073,709,551,616
 	* signed: -9,223,372,036,854,775,808 - 9,223,372,036,854,775,807
 	* registers hold integer values, whole numbers
+* System Call
+	* syscall = when a program requests a service from the kernel
+	* differ by operating system, diff OS's use diff kernels
+	* all syscalls have an ID associated with them
+	* syscalls also take arguments
 * 64-bit
 	* rax
 	* rbx
